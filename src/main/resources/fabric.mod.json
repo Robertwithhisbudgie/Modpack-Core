@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "modpack_core",
+  "version": "${version}",
+  "name": "Modpack Core",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/robert/Modpack Dev"
+  },
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modpack_core/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.robertmc.modpackcore.modpack_core.ModpackDevClient"
+    ]
+  },
+  "mixins": [
+    "modpack_core.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.20.5"
+  }
+}
