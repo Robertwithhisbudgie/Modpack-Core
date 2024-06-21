@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.robertmc.modpackcore.modpack_core.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "TitleScreenMixin",
+    "TextAccessor",
+    "WindowMixin"
+  ]
+}
